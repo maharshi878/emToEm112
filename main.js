@@ -18,7 +18,7 @@ document.getElementById("result").innerHTML= '<img id="captured_image" src="'+da
 
 console.log('how much info you need, greedy', ml5.version);
 
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/v_sl95BzE/model.json',modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/5mxzZHkpx/model.json',modelLoaded);
 
 function modelLoaded() {
 console.log('dedso rupiya lega model loaded bolne ke liye');

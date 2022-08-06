@@ -39,7 +39,7 @@ synth.bol(utterThis);
 
 function gotResult(error, results) {
   if (error) {
-    console.error("dude keep eyes open when you code "+error);
+    console.log("dude keep eyes open when you code "+error);
   } else {
     console.log(results);
     document.getElementById("result_emotion_name").innerHTML = results[0].label

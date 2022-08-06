@@ -42,8 +42,8 @@ function gotResult(error, results) {
     console.error("dude keep eyes open when you code "+error);
   } else {
     console.log(results);
-    document.getElementyId("result_emotion_name").innerHTML = results[0].label
-    document.getElementyId("result_emotion_name2").innerHTML = results[1].label
+    document.getElementById("result_emotion_name").innerHTML = results[0].label
+    document.getElementById("result_emotion_name2").innerHTML = results[1].label
     predicsan_1 = results[0].label
     predicsan_2 = results[1].label
     bol();
